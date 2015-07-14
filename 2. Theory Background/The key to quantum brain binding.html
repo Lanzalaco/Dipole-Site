@@ -1,0 +1,373 @@
+<HTML>
+<HEAD>
+<TITLE>dipole model for cortical binding</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat;
+}
+.style15 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+.style16 {font-family: Arial, Helvetica, sans-serif}
+.style63 {
+	font-family: Arial, Helvetica, sans-serif
+}
+.style72 {
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style73 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+.style82 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.style83 {
+	font-style: italic;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.style75 {	color: #000000;
+	font-weight: bold;
+}
+.style74 {font-size: 12px}
+.style78 {font-style: italic; font-size: 14px; font-weight: bold;}
+.style85 {font-size: 16px}
+.style86 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.style87 {font-family: "Times New Roman", Times, serif; }
+.style88 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+.style89 {font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; }
+.style90 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.style91 {font-size: 16}
+.style92 {font-size: 24}
+.style93 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 onLoad="MM_preloadImages('../images/Main-page-with-rolls_22.gif','../images/Main-page-with-rolls_23.gif','../images/Main-page-with-rolls_24.gif','../images/Main-page-with-rolls_25.gif','../images/Main-page-with-rolls_26.gif','../images/Main-page-with-rolls_27.gif','../images/Main-page-with-rolls_02.jpg','../images/Main-page-with-rolls_03.jpg','../images/Main-page-with-rolls_04.jpg','../images/Main-page-with-rolls_05.jpg','../images/Main-page-with-rolls_06.jpg','../images/Main-page-with-rolls_07.jpg','../images/Main-page-with-rolls_09.jpg','../images/Main-page-with-rolls_10.jpg','../images/Main-page-with-rolls_11.jpg','../images/Main-page-with-rolls_12.jpg')">
+<!-- ImageReady Slices (Content blank.psd) -->
+<table border="0" height=100% width="100%">
+  <td align="center" valign="middle"><table width="60"><td>
+<!-- ImageReady Slices (Main page with rolls.psd) -->
+<TABLE WIDTH=780 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=14>
+			<IMG SRC="../images/Header.jpg" WIDTH=780 HEIGHT=130 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD><a href="../Home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','../images/Main-page-with-rolls_02.jpg',1)"><img src="../images/Main-page-master_02.jpg" name="Image33" width="95" height="64" border="0"></a></TD>
+		<TD COLSPAN=2><a href="../__Pages/blog.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','../images/Main-page-with-rolls_03.jpg',1)"><img src="../images/Main-page-master_03.jpg" name="Image40" width="62" height="64" border="0"></a></TD>
+		<TD><a href="../__Pages/FAQ.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image41','','../images/Main-page-with-rolls_04.jpg',1)"><img src="../images/Main-page-master_04.jpg" name="Image41" width="67" height="64" border="0"></a></TD>
+		<TD COLSPAN=2><a href="../__Pages/Contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image42','','../images/Main-page-with-rolls_05.jpg',1)"><img src="../images/Main-page-master_05.jpg" name="Image42" width="95" height="64" border="0"></a></TD>
+		<TD COLSPAN=3><a href="../__Pages/Site Map.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image43','','../images/Main-page-with-rolls_06.jpg',1)"><img src="../images/Main-page-master_06.jpg" name="Image43" width="129" height="64" border="0"></a></TD>
+		<TD COLSPAN=3 ROWSPAN=2><a href="../__Pages/What is a dipole.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','../images/Main-page-with-rolls_07.jpg',1)"><img src="../images/Main-page-master_07.jpg" name="Image44" width="155" height="148" border="0"></a></TD>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="../images/Main-page-master_08.jpg" WIDTH=177 HEIGHT=148 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><a href="../1. Theory introduction/Theory Introduction.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','../images/Main-page-with-rolls_09.jpg',1)"><img src="../images/Main-page-master_09.jpg" name="Image45" width="112" height="84" border="0"></a></TD>
+		<TD COLSPAN=2><a href="../2. Theory Background/Theory Background.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/Main-page-with-rolls_10.jpg',1)"><img src="../images/Main-page-master_10.jpg" name="Image46" width="112" height="84" border="0"></a></TD>
+		<TD COLSPAN=3><a href="../3. Predictions and results/Predictions and results.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image47','','../images/Main-page-with-rolls_11.jpg',1)"><img src="../images/Main-page-master_11.jpg" name="Image47" width="113" height="84" border="0"></a></TD>
+		<TD COLSPAN=2><a href="../4. Research applications/Research applications.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image48','','../images/Main-page-with-rolls_12.jpg',1)"><img src="../images/Main-page-master_12.jpg" name="Image48" width="111" height="84" border="0"></a></TD>
+	</TR>
+	<TR>
+		<TD height="165" COLSPAN=14><table width="779" height="919" border="1" align="left" cellpadding="12" bordercolor="#000000">
+          <tr>
+            <td width="153" height="913" align="center" valign="top" bgcolor="#CCFFFF"><p align="center" class="style89"><a href="Theory Background.html">INDEX</a></p>
+              <p align="center" class="style15"><span class="style72"><a href="TheorySummary.html" class="style15">1.Easy read summary</a></span></p>
+              <p class="style15"><a href="Background and introduction.html" class="style85"><span class="style85">2.<strong>Dipole correlates with brain structure and function</strong></a></p>
+              <p class="style15"><a href="Neurochemical evidence for a brain dipole.html">3. Neurochemical evidence for a brain dipole </a></p>
+              <p class="style15"><a href="Where has our memory gone.html">4. Magnets on the Brain ?</a></p>
+              <p class="style15"><a href="The key to quantum brain binding.html">5. Dipole solves binding computation problem</a></p>
+              <span class="style15"><a href="Quantum structures in the limbic system.html">6. Quadrupole Structures in the limbic system </a></span></td>
+            <td width="566" align="center" valign="top" bgcolor="#CCCCCC"><p align="justify" class="style63"><strong>SECTION 5. </strong></p>
+              <p align="justify" class="style89">DOES DIPOLE SOLVE  BINDING COMPUTATION PROBLEM ?</p>
+              <p align="justify" class="style93">The Ferrofluid outlined in section 4 is ideal for  short term quantum &quot;style&quot; superposition processing at body temperatures.&nbsp;  I investigate neurophysiology of EEG, P300 and the computations of the thalamocortical system in order to understand if corticolimbic brain processes occur  in cycles of cortical superposition and thalamic spectral decomposition.</p>
+              <p align="justify" class="style16"><strong>FERROFLUIDS SOLUTION TO CONSCIOUS BINDING AND SHORT TERM MEMORY</strong></p>
+              <p align="justify" class="style16">One of the biggest problems for neuroscience is that neuron  assemblies do not explain how new sensory stimuli entering the brain, can be  held together in mind and decided upon and decisions made as to which area of  the neural assembly to hold them.</p>
+              <p align="justify" class="style86">&ldquo;Imagine a group of neurons, a neural  assembly or ensemble, to represent a feature. Suppose we have 4 of such,  denoted as A, B, C, and D. Now you are in a situation where the representation  of a complicated situation where all 4 of them needs to be activated, such as  recognition of a blue (represented by A) monster (B), and a red (C) lobster  (D). If each feature is represented by merely activating the corresponding  ensemble, it would not be able to distinguish the situation against &quot;red  monster and blue lobster&quot;. This is the so called superposition catastrophe  and is a big part of the binding problem. (Malsburg) (428)</p>
+              <p align="justify" class="style16">Then another problem is where this information is hold for  longer than the period of initial perception.</p>
+              <p align="justify" class="style86">&nbsp;&ldquo;<strong>As soon as local fields are generated, the  brain uses another mechanism to integrate local patterns into a global pattern  of activity.. During this period of sustained activity they possibly interact  with other local fields, spatially distributed in the brain, to generate the  content of a conscious perceptual episode&hellip;..</strong> This result is consistent with  the role of gamma synchronous oscillations in conscious perception &hellip; conscious  episodes composing the &ldquo;conscious present&rdquo; can be extended to periods of 2 or 3  seconds (P&ouml;ppel,1994)&hellip;..the minimum latency time for conscious processing would  be around 200 ms. Therefore<strong>, the  sustaining of neuronal activity necessary to support conscious processing would  range from 200 ms to 2/3 seconds.  How does the brain achieve this result</strong>? (296)</p>
+              <p align="justify" class="style16">Cortical  Ferrofluids are capable of answering the binding problem of superposition and  the missing parts in understanding short term memory. Ferrofluids have the property  of being able to sustain wave superposition (420) while the spin glass  frustration has the structure to hold multiple layers of memory at once over a  longer period of time.</p>
+              <p align="justify" class="style16"><img src="images/800px-Anas_platyrhynchos_wi.jpg" alt="1" width="575" height="429"></p>
+              <p align="justify" class="style16">SUPERPOSITION PRINCIPLE : When  two or more wave moving through the same region of space, waves will  superimpose and produce a well defined combined effect. Wave maintain their  integrity upon overlapping (without themselves being permanently changed).</p>
+              <p align="justify" class="style63">Nunez a respected neuroscientist in eeg has  proposed that the cortex can best be understood in terms of wave like activity at the brain surface,  inducing standing waves, which will propogate across the surface (330) </p>
+              <p align="justify" class="style86">&quot;The eigenfunctions for waves on the surface of a sphere are also of interest in the application of wavelike ideas to EEG. Of course the &quot;hemispheres&quot; of the brain are not spheres. Each hemisphere can perhaps be pictures as a bumpy football with a hole in the bottom for a brainstem. ...We consider waves travelling through the cortex(including the association fibres) with possible relay through the thalamus. Since the cortex is closed upon itself the analogy to spherical geometry will be quite usefull at least in a qualitative sense...The eigeinfunctions for waves (nondispersive and undamped) are given by functions called the &quot;spherical harmonics&quot;These eigenfunctions..are the spatial shapes of the normal modes for the waves on the surface of a sphere. Waves on the sphere do not reflect off boundaries..Here waves travelling in one direction will go round the sphere and coalesce with other waves. (700 p 330)</p>
+              <p align="justify" class="style16"><strong>REINTERPRATING EEG</strong></p>
+              <p align="justify" class="style16">The GAMMA  oscillations, <em>(which are unique to the cortex)</em> involved in activating  the binding of perceived sensory input to short term memory would provide an AC signal to write ferrofluid signal. The idea of carrier signals in neurology is prevailent with several different versions existing. (426a, 566, 426) While slower waves delta to alpha would probably be carriers for limbic / cortical interactions, requring multiplexing of information, Where as Beta is marked out as an ideal long distance cortico/cortical carrier (424v3).</p>
+              <p align="justify" class="style86">&ldquo;Recordings of EEG activity in animals  and humans demonstrate the spatial coherence of oscillations carrying  spatiotemporal patterns, as described by Freeman in Chapter 2. The recordings  reveal a shared oscillation in cortical potential over extended cortical areas  within the beta <strong>band (12 Hz to 30 Hz) </strong>and gamma band (30 Hz to 80 Hz). <strong>These fluctuations serve as a carrier wave  for perception information by means of spatial patterns with amplitude  modulation (AM)&rdquo;</strong> (566)</p>
+              <p align="justify" class="style16"><img src="images/ferrofluid-4.jpg" alt="1" width="575" height="403"></p>
+              <p align="justify" class="style16">Whatever the carrier signal  is the diagram above  summarizes the theory. The analogy is much like a tape loop recorder, except  the flow of blood moves the ferrofluid layer. &nbsp;Those signals which garner the requirements to  register as short term memory by being gamma associated neural activity, get written to the ferrofluid layer, as ferroelectric fluids respond to AC phase.  Singal amplification is increased by the hemodynamic response and supported by ab eletromagnetic carrier proved by  (depending on cortical areas involved) 
+                alpha/theta/beta synchrony. BOLD fMRI correlates both ERP (411) and Event oscillation  (409) T</p>
+              <p align="justify" class="style16">As well as providing, large area superpositional binding, The role of the ferromagnetic material in consciousness is being proposed  as a buffer or cache between short term processing and medium to long term  memory processes. While neurons are firing, creating ionic changes in the  extracellular fluid.&nbsp; This buffer grabs  and holds Modulated Evoked signals associated with short term memory.&nbsp; These would be split into two types event  related potentials ERP (405) which will be explained more fully, and Event related oscillation ERO signals such as delta to gamma (407). The ERO signals in the various combinations outlined, would be equivalent to bias and carrier signal applied  to a recording tape. No data could be found that ferroelectric fluids at physiological tempratures can do more than record information one way, so the fluid layer may just be for sustaining superpositioned information in a fast acting short term binding layer.</p>
+              <p align="justify" class="style16"><strong>FEASIBILITY OF MACROSCOPIC QUANTUM  &quot;STYLE&quot; COMPUTATION WITHIN THE FERROFLUID</strong></p>
+              <p align="justify" class="style16">This writing of perceived information  by gamma oscillations to conscious perception is followed by a unique signal  called P300, called so because it occurs about 300 milliseconds after conscious  perception. (408a) &nbsp;The P300 generation is entirely cortical, covering much of it&rsquo;s area (402,403)  and involved in a wide range of perceptual selection processes such as object  recognition. (<strong>408a2) </strong></p>
+              <p align="justify" class="style16">Stimulus encoding that promotes successful memory storage to  facilitate retrieval and recognition produces increased P300-like amplitude  (402) It&rsquo;s intrinsic  functionality in dealing with many probable outcomes ,marks it out as a signal  which could be involved in superposition calculation. </p>
+              <p align="justify" class="style86">&ldquo;the P300 is not distinct from, but neither entirely  explained by, the background dynamics of neural activity. It is not singularly  caused by the resetting of pre-existing oscillatory activity, but rather it is  affected by and affects such activity. Both explanations fit with the leading  explanation for gross P300 behavior, the context updating hypothesis. <strong>The P300 is thought in this model to  represent the physical change undergone when probabilities tied to certain outcomes  are refreshed in light of the subject&rsquo;s most recent contextual information</strong>&rdquo;(403) </p>
+              <p align="justify" class="style16"><img src="images/p300.jpg" alt="1" width="575" height="300"></p>
+              <p align="justify" class="style16">Images of P300 activation during perceptul processing. P300 consists of two signals, P3a/P3b with P3a being more anterior.</p>
+              <p align="justify" class="style16">P300 and similar signals are entirely cortical even through  they consist of phase locking theta / delta oscillations originating from the  limbic system. (402, 576, 576a, b).&nbsp;&nbsp; I  am going to suggest that the P300 signal represents the calculation of a superposition  process, firstly because it appears to mark the processing of cortical  superpositions.&nbsp; Evoked signals from  sensory input propagate throughout the cortex and add up in a superposition of  gamma activity (411c)</p>
+              <p align="justify" class="style16"><br>
+                Because  the P300 is a synchronized composite signal, other researchers (weiss below) have correlated  the P300 spectra and individuals memory span number with the number of layers  in a quantum spectra. (426) A quantum spectra is a superposition of waveforms,  which could equivocate well, to a proposed function of the P300, to collapse  cortical wave superposition. </p>
+              <p align="justify" class="style86">&ldquo;The number of EEG harmonics (n = 1, 2,  ... , 9) is identical with memory span, and the eigenvalues of the EEG impulse  response are represented by the zero-crossings up to the convolved fundamental,  the P300. In analogy to quantum mechanics the brain seems to be an ideal  detector simply measuring the energy of wave forms. No matter what the stimulus  is and how the brain behaves, the metric of signal and memory can always be  understood as a superposition of np states of different energy and their  eigenvalues&hellip; Vichnevetsky discovered (1988) by simulation experiments  &quot;unexpectedly that wave propagation in computational fluid dynamics and  the motion of particles in quantum mechanics share similar mathematics&rdquo; &hellip;&hellip;.. &ldquo;According to the  Wentzel-Brillouin-Kramers (WBK) method of quantum mechanics (Wentzel 1926), the  number of zero-crossings (Fig. 2) is identical with the quantum number. From  this follows: The number of zero-crossings of an evoked potential up to the  P300 is identical with memory span (i.e. with the number of macroscopic ordered  states)&rdquo;.(426) </p>
+              <p align="justify" class="style16"><img src="images/weiss.jpg" alt="1" width="575" height="376"></p>
+              <p align="justify" class="style16"><span class="style74">The two sets  of waveforms on the left&nbsp; represent the  P300 of a low and high IQ group. Notice the high IQ group has more complex  waveforms. Each of these waveforms has been calculated as a spectra of  harmonics which correlate with the number of items held in short term memory</span>. </p>
+              <p align="justify" class="style16">Weiss correlated the P300 components  as harmonics and a quantum spectra.&nbsp; An individuals  memory span number with the number of nodes in a quantum spectra. (426) &nbsp;&nbsp;A quantum spectra is a superposition of  harmonically related waveforms. Harmonics arise in electrical systems where Alternating Currents are transformed into direct currents resulting in direct current power increases. (425a3) Walter freeman describes how neuromodulators can be modelled on such processes (425a4) . There is a body of work by different researchers which indicated that harmonic structures exist in EEG (425b3)  are linked to memory capacity (425b2,426, 425c) and intrinsic mathematically to chaotic systems. (425d)</p>
+              <p align="justify" class="style16">Weiss contributes especially in this area by showing that the higher harmonics which correlate to the <span class="style85">smallest time window of conscious information  processing </span>exist only with higher IQ which is also correlated with increased memory span. (426, 425e,425f) Weiss also promotes the idea that the brain can be understood better in terms of spectral decomposition.</p>
+              <p align="justify" class="style87"><span class="style78">&quot;high IQ subjects exhibit a greater complexity of EEG  follows from the quantum number increase for the wave function with the result  of higher brain power for Fourier transformation of information&quot;.</span> (425e)</p>
+              <p align="justify" class="style16">To summarise Volkmar Weiss . Each component of the spectra leading up to  P300 is a harmonic representation of evoked potential in the gamma range (576c)  . each node within the wave can be associated with a unique phase  (426b,d). Recent research finds that the Storage of 7 +/- 2 short-term memories  would be gamma evoked potentials multiplexed in subcycles on carrier waves slow  delta to alpha which define memory span (426a)&nbsp;So several things are in place for a Quantum  &ldquo;style&rdquo; computation. Many superpositioned signals  each with it&rsquo;s own phase  space. What is required for the other side of the quantum &ldquo;style&rdquo; equation is  spectral measurement.</p>
+              <p align="justify" class="style87"><em><strong>&quot;the brain seems to be an ideal detector simply measuring the energy of wave forms. No matter what the stimulus is and how the brain behaves, the metric of signal and memory can always be understood as a superposition of n pi states of different energy and their eigenvalues.&quot; (426)</strong></em></p>
+              <div align="justify">
+                <table width="542" height="203" border="3" cellpadding="0" cellspacing="0" bordercolor="#000000">
+                  <tr>
+                    <td width="120" valign="top" bgcolor="#CCCCCC" class="style16"><p class="style75">&nbsp;</p></td>
+                    <td width="196" valign="top" class="style16"><p class="style75">CARRIER (Span) (426b) </p></td>
+                    <td width="214" valign="top" class="style16"><p class="style75">SIGNALs (426b) </p></td>
+                  </tr>
+                  <tr>
+                    <td width="120" valign="top" bgcolor="#CCCCCC" class="style16"><p><strong>&nbsp;</strong></p></td>
+                    <td width="196" valign="top" class="style16"><p><strong>&nbsp;</strong></p></td>
+                    <td width="214" valign="top" class="style16"><p><strong>&nbsp;</strong></p></td>
+                  </tr>
+                  <tr>
+                    <td width="120" valign="top" bgcolor="#CCCCCC" class="style16"><p class="style74"><strong>(Corticothalamic)</strong></p></td>
+                    <td width="196" valign="top" class="style16"><p class="style74"><strong>Delta 1-3 = 1000-333ms (P3,P4,P6)&nbsp; </strong></p></td>
+                    <td width="214" valign="top" class="style16"><p class="style74"><strong>Thalamic&nbsp;</strong> <strong>Relay signal </strong></p></td>
+                  </tr>
+                  <tr>
+                    <td width="120" valign="top" bgcolor="#CCCCCC" class="style16"><p class="style74"><strong>(Septal hippocampal)</strong></p></td>
+                    <td width="196" valign="top" class="style16"><p class="style74"><strong>Theta 4-7&nbsp;&nbsp;&nbsp; 250-143ms (N2,P2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p></td>
+                    <td width="214" valign="top" class="style16"><p class="style74"><strong>Locked to High Gamma 60-250) 16.6 &ndash; 4ms&nbsp; (576) lo Gamma 30-60 (576b)33.3ms -16.6ms</strong></p></td>
+                  </tr>
+                  <tr>
+                    <td valign="top" bgcolor="#CCCCCC" class="style16"><p class="style74"><strong>(Thalamus)</strong></p></td>
+                    <td valign="top" class="style16"><p class="style74"><strong>Alpha 8-12&nbsp; 125 &ndash; 83.3&nbsp;    (P1,N1)</strong></p></td>
+                    <td valign="top" class="style16"><p class="style74"><strong>Recognition locking    N1&nbsp; (411c)</strong></p></td>
+                  </tr>
+                  <tr>
+                    <td valign="top" bgcolor="#CCCCCC" class="style88"><p><strong>(Temporal </strong></p>
+                        <p><strong>Cortical)</strong></p></td>
+                    <td valign="top" class="style16"><span class="style74"><strong>Beta 12-29 83.3-34.48 </strong></span></td>
+                    <td valign="top" class="style16"><span class="style74"><strong>Lo Gamma (566)</strong></span></td>
+                  </tr>
+                            </table>
+              </div>
+              <p align="justify" class="style87">Table : Shows the Carrier span of slow waves (carrier) and faster signals. High Gamma synchronises right up to 4ms. Just 1ms above the latency of ferrofluid to retain a signal</p>
+              <p align="justify" class="style16"><strong>THALAMIC  CO_ORDINATION OF CORTICAL DECOHERENCE</strong></p>
+              <p align="justify" class="style16">Each addition  of evoked cortical low gamma activity eventually leads to  &quot;desynchronization&rdquo; the Event related desynchronization, (ERD) a reduction  of fast non-phase-locked oscillations (402). A &ldquo;decrease in coherence across  space&rdquo; (5751) Alpha (ERS) suppression, or deactivation&nbsp; (402)&nbsp;  In other words there is an increasing divergence away from a coherent  thalamic entrained alpha signal as more cortical areas are activated by  stimulus. </p>
+              <p align="justify" class="style16">One  component of the ERP P300 is phase-locked delta (402) which is corticothalamic  feedback (424v) As cortical activation increases corticalthalamic feedback may  increase. As The P300 is accompanied by Alpha phase reset&nbsp; (411d) and  it could be hypothesized that this reset  occurs due to the corticothalamic input. &nbsp;The thalamic nuclei targeted by corticothalamic input are matrix relay, as one  function of this pattern is to synchronize fast cortical oscillations via the  matrix projections back to cortex.(424x)&nbsp;  The limbic / cortical relationship cycle, here appears to be that sensory  input leads to cortical expansion and superposition. The resulting decoherence  increases corticothalamic delta feedback, with a reciprocal thalamic alpha  phase relocking. In otherwords corticothalamic is a loop system. (424x)</p>
+              <p align="justify" class="style16">The thalamocortical connections &nbsp;project back from this thalamus matrix to the  cortex superficial layer, that is the cortical surface.. (426a4) Where  &ldquo;corticocortical&rdquo; connections occur with the superficial layers of other  regions, both adjacent and distant through the corpus callosum (426a5) The  thalamocortical projections to the superficial layers perform Lateral  inhibition that is they generate IPSPs . Only cortical excitatory cells that  are most activated by an input pattern can respond before lateral inhibition  quiets them.(424x) </p>
+              <p align="justify" class="style16"><strong>PATTERN COMPUTATION IN THE  THALAMUS</strong></p>
+              <p align="justify" class="style16">Corticothalamic synapses potentiated in&nbsp;  layer V orthogonalizing their inputs to matrix cells which  eliminates any structural relationships that may exist. &nbsp;. In  other words spatial data is flattened as it returns to the thalamus. In  modeling experiments, the overall effect of this orthogonalization in the  thalamic matrix process is &quot;sequential categorization&quot;. Other models  of the thalamus find that it is capable of performing &ldquo;pattern completion task&rsquo;s&rdquo;, pattern completion of  uncompleted input patterns. (424x3) Both Weiss and Granger come to similiar conclusions. Weiss concludes that at some stage his harmonic brain model, must produce calculations resulting in chains or sequences of information derived from sensory input. While Granger working at the floor level on thalamocortical algorithmns derives classical versions of the same process.</p>
+              <p align="justify" class="style16"><em><span class="style82">&quot;Memory as an energy landscape is decoded and encoded  by stimuli-elicited resonance chains measuring the energy of waveforms.&quot; (425f) </span></em></p>
+              <p align="justify" class="style83">&quot;topographic &lsquo;core&rsquo; circuits operate to organize stored memories into natural similarity-based hierarchies, whereas diffuse &lsquo;matrix&rsquo; circuits give rise to efficient storage of time-varying input into retrievable sequence chains.&quot;</p>
+              <p align="justify" class="style16"><img src="images/granger.jpg" alt="1" width="575" height="331"></p>
+              <p align="justify" class="style16">Key features of anatomical organization of  thalamocortical circuits to be modeled (See text.) Core thalamic cells project topographically to layer IV and  III of particular cortical areas; from these arise projections tosuperficial layer cells (II-III), which in turn project  to deep layers (V-VI). Matrix cells project broadly and nontopographically to  multiple cortical areas, synapsing in layer I on the apical dendrites of layer  II, III and V cells. Layer V cells generate nontopographic projections back to  matrix; layer VI cells project to core and to overlying (GABAergic) nucleus  reticularis, which in turn project to core thalamic cells. (Left) Organization  of layers and projections. (Right) Simplification of the circuit projection  pattern (424x)</p>
+              <p align="justify" class="style16">Because matrix nuclei are most  strongly driven by corticothalamic feedback &nbsp;(424x) spectral decomposition of the proposed  cortical spectral superposition can be called an eigendecomposition, &nbsp;&ldquo;the factorization of a matrix into a  canonical form, whereby the matrix is represented in terms of its eigenvalues  and eigenvectors.&rdquo; (426a3) Interestingly orthogonal transformations for  eigendecomposition&nbsp; can be performed by a  COordinate Rotation DIgital Computer CORDIC. A device designed for spectrum  analysis (426a5) It is commonly used when no hardware multiplier is available,  the only operations it requires are addition, subtraction, bitshift and table  lookup. (426a6)</p>
+              <p align="justify" class="style16">It is being suggested here that  the thalamus performs spectral decomposition of cortical spectral addition. The  thalamus function of relay switching and regulatory feedback implies it could  be computationally capable of the simple linear operations for spectral  decomposition.&nbsp; The research so far leads  me to think that the cortex forms spectral superpositions in need of spectral  decomposition before Event related Desynchronization or cortical decoherence  occurs. There are several interesting analogies converging that point to the  thalamus being intrinsically capable of this from a wide range of related  fields .</p>
+              <div align="justify" class="style16">
+                <div align="justify">
+                  <ol start="1" type="1">
+                    <li><strong>Thalamic       neuroscience</strong>:&nbsp; Orthogonalized       reorganization of superpositioned corticothalamic outputs to a matrix. </li>
+                    <li><strong>Spectral       decomposition computers : </strong>perform orthogonal transformations for       eigendecomposition <em>&ldquo;whereby the       matrix is represented in terms of its eigenvalues and eigenvectors.&rdquo;</em> &nbsp;Using       very basic linear operations.</li>
+                    <li><strong>Limbic       Quadrupole : &nbsp;</strong>The difference       between quadrupole (limbic) and (dipole) is inversion of wave function.       With the the cortical dipole non-linear (chaotic dynamic expansion) and       the quadrupole (where the thalamus is at the centre) being linear, centrolineal,       tending towards it&rsquo;s centre. In engineering the linear Quadrupole is       manufactured as a device capable of linear measurement.</li>
+                    <li><strong>Thalamic       computation :&nbsp; </strong>. Modelling of       the thalamus into algorithms, finds it is computationaly capable of &quot;sequential       categorization&quot; and pattern recognition of sensory data. (424x2) This       kind of process has parallels &nbsp;with       the pattern recognition in eigendecomposition</li>
+                  </ol>
+                </div>
+              </div>
+              <p align="justify" class="style16">In other words the thalamocortico feedback relationship is a  spectral compression / expansion cycle which has a quantum / classical processing  &ldquo;style&rdquo;. Harmonic superposition of evoked potentials takes place with reverse  convolution (sensory sampling decelerates) leading to ERD decoherence after  about 100ms, at which stage corticothalamic feedback results in a measurement  and decomposition of the current situation back to the thalamic matrix, where  it projects back to the cortical superficial layers to begin it&rsquo;s journey back  down again.</p>
+              <p align="justify" class="style16"><strong>QUANTUM &ldquo;STYLE&rdquo; COMPUTATIONS AND FERROFLUID</strong></p>
+              <p align="justify" class="style16">The  brain has multipole structures, which are reconstituted in protein structures,  because if an in increase in electromagnetic processing is selected as being  increasingly advantageous then the brain will naturally develop electromagnetic  structures. These structure&rsquo;s do not have to&nbsp;  operate at the speed and simplicity of atomic dipoles. An electromagnetic  and systems approach to research, leads to &nbsp;conclude the brain operates in a quantum /  classical &ldquo;style&rdquo;. The cortex is primarily geared towards continuous&nbsp; divergence of superpositional processing, and  there appears to be a missing link in explaining what binds consciousness in  short term memory times above 100ms. I don&rsquo;t have any data, nor the skills to  describe if these Quantum &ldquo;style&rdquo; processes work at quantum resolution, however  Quantum brain researchers are onto something, either detecting what I have  discovered here or more. </p>
+              <p align="justify" class="style16">Hameroff (574a) a leader in quantum  brain approaches, describes how no current research or theory can explain the  coherence of gamma oscillations. </p>
+              <p align="justify" class="style87"><em>&ldquo;Thus, gamma synchrony occurs in the same gap junction connected  dendritic webs within whose cytoplasm Orch OR conscious events are proposed to  occur. While gap junctions are required for gamma synchrony, they still impart  some phase delay, that is, gap junctions are necessary but not sufficient to  account for the precise global coherence&rdquo; &ldquo;Recent reviews (Freeman and Vitiello, 2006; c.f. John,  2001) concluded that thalamic pacing, recurrent feedback, reciprocal  connections, electric fields and/or gap junction membrane coupling cannot  account for precise global coherence of gamma synchrony EEG, and that long  range quantum correlations may be required&rdquo;(574a)</em></p>
+              <p align="justify" class="style16">What could be missing from Quantum  brain model&rsquo;s is a link between coherent states in gamma excited microtubules  and the cortical ferrofluid. These gamma oscillation are  also proposed as a carrier wave to write cortical representations to the  ferroelectric fluid. </p>
+              <p align="justify" class="style16"><img src="images/slide65.jpg" alt="1" width="503" height="354"></p>
+              <p align="justify" class="style16">Hameroff often asks the question, how can the brain compute this without superpositions ? Quantum computations such as making a probability match (  picking a face out a crowd ?) can be computed when superposition wave functions  or memories held in a fluid lattice such as a ferroelectric fluid are  interrupted and collapse. The proposal is that the p300 signals a computational collapse of the many Pre-conscious  memories held in the cortical ferroelectric fluids. <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+              <p align="justify" class="style16"><strong>CORTICAL FERROFLUID UNIFIES SEVERAL LEADING MODELS OF THE BRAIN</strong></p>
+              <p align="justify" class="style16"><strong>Neurodynamics : </strong>Found chaotic attraction  spreading at the brain surface. The fluid is a chaotic attractor.</p>
+              <p align="justify" class="style16"><strong>Stochastic resonance : </strong>Magnetic particles  impose resonant noise on applied signals.</p>
+              <p align="justify" class="style16"><strong>NAMMF&rsquo;s </strong>: Provided the hypothesus  of&nbsp; magnetic recording at the brain  surface.</p>
+              <p align="justify" class="style16"><strong>CEMI: </strong>This models shows consciousness is  held at the brain surface electromagnetic field but not how.</p>
+              <p align="justify" class="style16"><strong>ORCH OR : </strong>This model finds high quantum  coherence in CSF as well as predicting quantum computation. </p>
+              <p align="justify" class="style16"><strong>FERROFLUID COMPLETES THE DIPOLE MODEL</strong></p>
+              <p align="justify" class="style16">The dipole  model's completion requires a separation of charge between hemispheres. &nbsp;Nunez points out that cutting the corpus callosum makes no difference to alph waves. That is the hemispheres are not coupled together as a single system. Any coupling appears to take part at the brains surface extremetites.</p>
+              <p align="justify" class="style87"><em>&ldquo;neurons connected by gap junctions are  electrically coupled, depolarize synchronously&nbsp;  and &ldquo;behave like one giant neuron&rdquo; (Kandel et al 2000)</em></p>
+              <p align="justify" class="style16">These write  electromagnetic signals through the extracellular fluid uninterrupted radiating outwards to the cortical  ferrofluid surface layer, which is capable of ferroelectric feedback, back down into the cortex surface.</p>
+              <p align="justify" class="style16">Each  hemispheres Cerebrospinal fluid is isolated from the other by the falx cerebri.  So either hemisphere could maintain some wide surface ferroelectric  polarization, while being functionally seperated from the other. This provides the  solution to the opposing charges required to be distributed at poles in the  dipole model.&nbsp;</p>
+              <p align="justify" class="style16"><img src="images/image_2635.jpg" alt="1" width="575" height="312" border="3"></p>
+              <p align="justify" class="style16">Diagrams above : Either  hemisphere is sealed of from the other, and appears to radiate outwardly.</p>
+              <p align="justify" class="style16">This cortical model together with the next chapters outlined  quadrapole model for the limbic system would provide a complete solution to the  mystery of what forces have allowed the brain to emerge with such a consistent  structure. Brain dipole structure emerges in development, so it is not  surprising to find that this is a time of increased gap junction activity.&nbsp; </p>
+              <p align="justify" class="style87"><em>&quot;In early development gap junctions link pyramidal cells with  each other, with non-pyramidal neurons, and with glia during formation of  cortical circuits (Bittman et al 2002). The number of cortical gap junctions  then declines so gap junctions were considered irrelevant to cognition or  consciousness. However many studies show that gap junctions persist  significantly in the adult mammalian brain. Moreover, gap junction circuits of  cortical interneurons in adult brains mediate gamma EEG/coherent 40 Hz and  other synchronous activity&rdquo;</em></p>
+              <p align="justify" class="style73">Section 5 summary</p>
+              <p align="justify" class="style63"><strong>PROBLEM</strong></p>
+              <p align="justify" class="style63">neuron assemblies do not explain how new sensory stimuli  entering the brain, can be held together in mind and decisions made as to which  area of the neural assembly to hold them. The <em>&ldquo;superposition catastrophe&rdquo;</em> (428). There is also the problem of  where this information is hold for longer than the period of initial perception  of 200ms (296)</p>
+              <p align="justify" class="style63"><strong>PROPOSAL</strong></p>
+              <p align="justify" class="style63">Quantum &ldquo;style&rdquo;&nbsp; computational  process are taking place in cortex at magnetic particle resolution.</p>
+              <p align="justify" class="style63">Ferrofluid layer has superpositioned cortical activity  written to like a liquid recorder, with various combinations of EEG providing signal,  carrier and bias. </p>
+              <p align="justify" class="style63">As Cortical decoherence increases delta  corticothalamic,&nbsp; feedback there is a  resultant increase in coherence by alpha rephasing. Thalamocorticol feedback  relationship is a spectral compression / expansion cycle which has a quantum /  classical processing &ldquo;style&rdquo;. </p>
+              <p align="justify" class="style63">Cortical harmonic superposition of evoked potentials takes  place with reverse convolution (sensory sampling decelerates) leading to ERD  decoherence after about 100ms, at which stage corticothalamic feedback results  in a measurement and decomposition of the current situation back to the  thalamic matrix, where it projects back to the cortical superficial layers to  begin it&rsquo;s journey back down again.</p>
+              <p align="justify" class="style63"><strong>POINTS</strong></p>
+              <p align="justify" class="style63">CORTEX TENDS TOWARDS&nbsp; SPECTRAL  SUPERPOSITIONS AND DECOHERENCE</p>
+              <p align="justify" class="style63">Researchers which indicated that harmonic structures exist  in EEG (425b3) are linked to memory capacity (425b2,426, 425c) and intrinsic  mathematically to chaotic systems. (425d)</p>
+              <p align="justify" class="style63">Several researchers point to slower EEG acting as a carrying  signal for faster EEG (426a, 566, 426) for amplitude modulation (566) short  term memory multiplexing (426) and short term superposition (426a)</p>
+              <p align="justify" class="style63">Evoked signals from sensory input propagate throughout the  cortex and add up in a superposition of gamma activity (411c)</p>
+              <p align="justify" class="style63">P300 generation is entirely cortical, covering much of it&rsquo;s  area (402,403) and involved in a wide range of perceptual selection processes which  are implicated in the &ldquo;superposition catastrophe&rdquo; such as object recognition.  (408a2) and context updating when probabilities tied to certain outcomes are  refreshed (403)</p>
+              <p align="justify" class="style63">The number of EEG harmonics (n = 1, 2, ... , 9) up to 250ms  is identical with memory span and has reverse convolution (increasingly slower).<br>
+                Each component of the spectra leading up to P300 can be  linked to a &nbsp;harmonic representation of  evoked potential in the gamma range (576c) . each node within the wave can be  associated with a unique phase (426b,d).</p>
+              <p align="justify" class="style63">Each addition of evoked cortical low gamma activity  eventually leads to &quot;desynchronization&rdquo; the Event related  desynchronization, (ERD) a reduction of fast non-phase-locked oscillations  (402). A &ldquo;decrease in coherence across space&rdquo; (5751) Alpha (ERS) suppression,  or deactivation&nbsp;(402)&nbsp;In other words there is an increasing  divergence away from a coherent thalamic entrained alpha signal as more  cortical areas are activated by stimulus.</p>
+              <p align="justify" class="style63">THALAMUS TENDS TOWARDS SPECTRAL DECOMPOSITION AND COHERENCE</p>
+              <p align="justify" class="style63">COHERENCE </p>
+              <p align="justify" class="style63">Alpha wave phase reset Contributes to the Generation of ERPs  (, 402, 575a)<br>
+                The thalamic nuclei targeted by corticothalamic input are  matrix relay, as one function of this pattern is to synchronize fast cortical  oscillations via the matrix projections back to cortex.(424x)&nbsp;</p>
+              <p align="justify" class="style63">SPECTRAL DECOMPOSITION</p>
+              <p align="justify" class="style63">thalamic nuclei targeted by corticothalamic input orthogonalizing  their inputs to matrix cells which causes spatial compression. (424x3) and  pattern recognition of sensory data. (424x2)</p>
+              <p align="justify" class="style63">Spectral compression is performed mathematically by &ldquo;the  factorization of a matrix into a canonical form, whereby the matrix is  represented in terms of its eigenvalues and eigenvectors.&rdquo; (426a3)</p>
+              <p align="justify" class="style63"><strong>INTEGRATED </strong></p>
+              <p align="justify" class="style63">Perlovsky and&nbsp; Kozma &nbsp;(Freeman Neurodynamics, carrier wave binding)<br>
+                VanRullen and Koch (multiplexing) <br>
+                Polich&nbsp;&nbsp; P300 (contex  updating, probability outcomes)<br>
+                Granger (thalamus neural computation)<br>
+                Weiss (Neural harmonics)</p>
+              <p align="justify" class="style63"><span class="style90">REFERENCES&nbsp;</span></p>
+              <p align="left"><span class="style92"><span class="style91"><strong>296 Pereira Jr A, Furlan FA.  Meta-Potentiation: Neuro-Astroglial Interactions Supporting Perceptual  Consciousness.&nbsp; <a href="http://precedings.nature.com/documents/760/version/1">http://precedings.nature.com/documents/760/version/1</a> 2007.&nbsp;&nbsp; 30/11/2008.</strong> </span></span></p>
+              <p align="left" class="style91"><strong>330 see 700 (p330)</strong></p>
+              <p align="left" class="style91"><strong>402 Polich J. Updating P300: an  integrative theory of P3a and P3b. Clin Neurophysiol 2007;118(10):2128-48.</strong></p>
+              <p align="left" class="style91"><strong>405 Agam Y, Sekuler R.  Interactions between working memory and visual perception: an ERP/EEG  study.&nbsp; Neuroimage 2007;36(3):933-42.</strong></p>
+              <p align="left" class="style91"><strong>407 Tallon-Baudry C, Mandon S, Freiwald</strong> <strong>WA, Kreiter</strong> <strong>AK. Oscillatory  synchrony in the monkey temporal lobe correlates with performance in a visual  short-term memory task. : Cereb Cortex. 2004;14(7):713-20.</strong></p>
+              <p align="left" class="style91"><strong>408a Melloni L, Molina C, Pena  M, Torres D, Singer W, Rodriguez E. Synchronization of neural activity across  cortical areas correlates with conscious perception. J Neurosci  2007;27(11):2858-65.</strong></p>
+              <p align="left" class="style91"><strong>408a2&nbsp;&nbsp;&nbsp;&nbsp;  Vianin P, Posada A, Hugues E et al. Reduced P300 amplitude in a  visual recognition task in patients with schizophrenia.&nbsp; Neuroimage 2002;17(2):911-21.</strong></p>
+              <p align="left" class="style91"><strong>409 Foucher JR, Otzenberger H,  Gounot D. The BOLD response and the gamma oscillations respond differently than  evoked potentials: an interleaved EEG-fMRI study. &nbsp;BMC Neurosci 2003;4:22.</strong></p>
+              <p align="left" class="style91"><strong>411 Otzenberger H, Gounot D,  Foucher JR. P300 recordings during event-related fMRI: a feasibility study.  Brain Res Cogn Brain Res 2005;23(2-3):306-15.</strong></p>
+              <p align="left" class="style91"><strong>411c Klimesch W, Schack B,  Schabus M et al. Phase-locked alpha and theta oscillations generate the P1&ndash;N1  complex and are related to memory performance. Brain Res Cogn Brain Res.  2004;19(3):302-16.</strong></p>
+              <p align="left" class="style91"><strong>411d Fell J, Dietl T, Grunwald T  et al.&nbsp; Neural bases of cognitive ERPs:  more than phase reset. J Cogn Neurosci 2004;16(9):1595-604.</strong></p>
+              <p align="left" class="style91"><strong>420 Lahaye T, Koch T, Fr&ouml;hlich B  et al. &nbsp;Strong dipolar effects in a  quantum ferrofluid.&nbsp; Nature.  2007;448(7154):672-5.</strong></p>
+              <p align="left" class="style91"><strong>424v Bazhenov M, Timofeev I. &nbsp;Thalamocortical oscillations.&nbsp; <a href="http://www.scholarpedia.org/article/Thalamocortical_oscillations">http://www.scholarpedia.org/article/Thalamocortical_oscillations</a>&nbsp; 2006.&nbsp; 30/11/2008.</strong> </p>
+              <p align="left" class="style91"><strong>424v3 Kopell N, Ermentrout GB,  Whittington MA, Traub RD.&nbsp; Gamma rhythms  and beta rhythms have different synchronization properties.&nbsp; Proc Natl Acad Sci U S A. 2000 Feb  15;97(4):1867-72.</strong></p>
+              <p align="left" class="style91"><strong>424x Granger RH,&nbsp; Hearn RA. Models of thalamocortical  system.&nbsp; <a href="http://www.scholarpedia.org/article/Models_of_thalamocortical_system#Oscillation-Assisted_Processing">http://www.scholarpedia.org/article/Models_of_thalamocortical_system#Oscillation-Assisted_Processing</a>&nbsp; 2007. 30/11/2008.</strong> </p>
+              <p align="left" class="style91"><strong>424x2 Rodriguez A, Whitson J,  Granger R.&nbsp; Derivation and analysis of  basic computational operations of thalamocortical circuits. J Cogn Neurosci  2004;16(5):856-77.</strong></p>
+              <p align="left" class="style91"><strong>424x3 Pelaez JR.&nbsp; Schizophrenia Positive Symptoms Interpreted  as Cognitive Hallucinations. Lecture Notes in Computer Science  2003;2774(2003):1156-1163</strong></p>
+              <p align="left" class="style91"><strong>425a3 Grady WM, Santoso S.  Understanding Power System Harmonics.&nbsp;  Power Engineering Review 2001;21(11):c2-c2.</strong></p>
+              <p align="left" class="style91"><strong>425a4 Freeman WJ,&nbsp; Pardalus P,&nbsp; Principe J,&nbsp; Rajasekaran S,&nbsp; Making Sense of Brain Waves: The Most  Baffling Frontier in Neuroscience. Biocomputing Eds 2001;3:33-5.</strong></p>
+              <p align="left" class="style91"><strong>425b2 Glassman RB. A  &quot;theory of relativity&quot; for cognitive elasticity of time and modality  dimensions supporting constant working memory capacity: involvement of  harmonics among ultradian clocks?&nbsp; Prog  Neuropsychopharmacol Biol Psychiatry 2000;24(2):163-82.</strong></p>
+              <p align="left" class="style91"><strong>425b3 Sokolov AA, Sokolov IaA.  Combinatorial relations in the EEG spectrum. Biull Eksp Biol Med.  1975;80(7):11-14.</strong></p>
+              <p align="left" class="style91"><strong>425c Weiss V. The spatial metric  of brain underlying the temporal metric of EEG and thought. Gegenbaurs Morphol  Jahrb 1990;136(1):79-87.</strong></p>
+              <p align="left" class="style91"><strong>425d Weiss H, Weiss V.&nbsp; The golden mean as clock cycle of brain  waves. Chaos, Solitons and Fractals 2003;18(4):643-652.</strong></p>
+              <p align="left" class="style91"><strong>425e Weiss V. From memory span  and mental speed toward the quantum mechanics of intelligence. Person individ  Diff 1986;7:737-749.</strong></p>
+              <p align="left" class="style91"><strong>425f Weiss V. From short-term  memory capacity toward the EEG resonance code.&nbsp;  Person individ Diff 1989;10(5):501-508.</strong></p>
+              <p align="left" class="style91"><strong>426 Weiss V. The relationship  between short-term memory capacity and EEG power spectral density.&nbsp; Biol Cybern 1992;68(2):165-72.</strong></p>
+              <p align="left" class="style91"><strong>426a &nbsp;Lisman JE, Idiart MA. Storage of 7 +/- 2  short-term memories in oscillatory subcycles. Science. 1995;267(5203):1512-5.</strong></p>
+              <p align="left" class="style91"><strong>426a3 Eigendecomposition of a  matrix. <a href="http://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix">http://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix</a>&nbsp; 2008. 30/11/2008.</strong> </p>
+              <p align="left" class="style91"><strong>426a4 Vanpoucke FJ,&nbsp; Moonen M,&nbsp;  Deprettere EF. Factored orthogonal transformations for recursiveeigendecomposition.&nbsp; Circuits and Systems II 1997;44(3):253-256.</strong></p>
+              <p align="left" class="style91"><strong>426a5 Dhar</strong> <strong>AS, Banerjee S.&nbsp;&nbsp; Doppler ultrasonograph with CORDIC based  spectrum analyzer forblood flow velocity estimation. <a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=532181">http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=532181</a> 1995. 30/11/2008.</strong> </p>
+              <p align="left" class="style91"><strong>426a6 Walther JS. The Story of  Unified Cordic. The Journal of VLSI Signal Processing 2000;25(2):107-112.</strong></p>
+              <p align="left" class="style91"><strong>426b VanRullen R, Koch C.&nbsp; Is perception discrete or continuous?&nbsp; Trends Cogn Sci 2003;7(5):207-213.</strong></p>
+              <p align="left" class="style91"><strong>426d Prechtl JC, Cohen LB,  Pesaran B, Mitra PP, Kleinfeld D. Visual stimuli induce waves of electrical activity in turtle  cortex. Proc Natl Acad Sci U S A 1997;94(14):7621-6.</strong> </p>
+              <p align="left" class="style91"><strong>428 Malsburg CV. Binding problem,  neural basis of. &nbsp;International  Encyclopedia of the Social &amp; Behavioral Sciences 2001:1178-1180.</strong></p>
+              <p align="left" class="style91"><strong>566 Perlovsky LI,&nbsp; Kozma R. Neurodynamics of Cognition and  Consciousness 2007:1-8.</strong></p>
+              <p align="left" class="style91"><strong>570 Karson CN, Coppola R, Daniel  DG. alpha frequency in schizophrenia: an association with enlarged cerebral  ventricles. Am J Psychiatry 1988;145(7):861-4. </strong></p>
+              <p align="left" class="style91"><strong>570b Takeuchi K, Takigawa M,  Fukuzako H et al.&nbsp; Correlation of third  ventricular enlargement and EEG slow wave activity in schizophrenic  patients.&nbsp; Psychiatry Res 1994;55(1):1-11.</strong></p>
+              <p align="left" class="style91"><strong>574a Hameroff&nbsp; SR. The Brain Is Both Neurocomputer and  Quantum Computer.&nbsp; Cognitive Science: A  Multidisciplinary Journal 2007;31(6):1035-1045.</strong></p>
+              <p align="left" class="style91"><strong>5751 Edwards E, Soltani M,  Deouell LY, Berger MS, Knight RT.&nbsp; High  gamma activity in response to deviant auditory stimuli recorded directly from  human cortex.&nbsp; J Neurophysiol  2005;94(6):4269-80.</strong></p>
+              <p align="left" class="style91"><strong>576 Canolty RT, Edwards E, Dalal  SS. High gamma power is phase-locked to theta oscillations in human  neocortex.&nbsp; Science  2006;313(5793):1626-8.</strong></p>
+              <p align="left" class="style91"><strong>576a (NOT NEEDED)</strong></p>
+              <p align="left" class="style91"><strong>576b &nbsp;Sauseng P, Klimesch W, Gruber WR, Birbaumer N.  Cross-frequency phase synchronization: a brain mechanism of memory matching and  attention. Neuroimage 2008;40(1):308-17.</strong></p>
+              <p align="left" class="style91"><strong>576c&nbsp; Klimesch W. Memory processes, brain  oscillations and EEG synchronization. Int J Psychophysiol 1996;24(1-2):61-100.</strong></p>
+              <p align="left" class="style91"><strong>700 Nunez P, Srinivasan R.  Electric Fields of the Brain. First Edition1981:330-332.</strong></p>
+              <p align="left" class="style91">&nbsp;</p>
+              <p><strong>&nbsp;</strong></p>
+              <p align="justify" class="style63">&nbsp;</p>
+              <p align="justify" class="style63"><strong>&nbsp;</strong></p>
+              <p align="justify" class="style63">&nbsp;</p></td>
+          </tr>
+        </table></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=5><img src="../images/Main-page-master_21.gif" width="236" height="49"></TD>
+<TD COLSPAN=3><a href="../__Pages/Creative Commons.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','../images/Main-page-with-rolls_22.gif',1)"><img src="../images/Main-page-master_22.gif" name="Image34" width="136" height="49" border="0"></a></TD>
+<TD><a href="../Home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','../images/Main-page-with-rolls_23.gif',1)"><img src="../images/Main-page-master_23.gif" name="Image35" width="76" height="49" border="0"></a></TD>
+<TD><a href="../__Pages/blog.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','../images/Main-page-with-rolls_24.gif',1)"><img src="../images/Main-page-master_24.gif" name="Image36" width="54" height="49" border="0"></a></TD>
+<TD><a href="../__Pages/FAQ.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','../images/Main-page-with-rolls_25.gif',1)"><img src="../images/Main-page-master_25.gif" name="Image37" width="69" height="49" border="0"></a></TD>
+<TD COLSPAN=2><a href="../__Pages/Contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','../images/Main-page-with-rolls_26.gif',1)"><img src="../images/Main-page-master_26.gif" name="Image38" width="95" height="49" border="0"></a></TD>
+<TD><a href="../__Pages/Site Map.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','../images/Main-page-with-rolls_27.gif',1)"><img src="../images/Main-page-master_27.gif" name="Image39" width="114" height="49" border="0"></a></TD>
+  </TR>
+	<TR>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=95 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=17 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=45 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=67 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=12 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=83 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=18 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=35 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=76 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=54 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=69 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=32 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=63 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=114 HEIGHT=1 ALT=""></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>
